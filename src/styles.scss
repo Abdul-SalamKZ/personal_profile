@@ -7,9 +7,10 @@
 @import url(../src/assets/font_scss/regular.scss);
 @import url(../src/assets/font_scss/solid.scss);
 @import url(../src/assets/font_scss/v4-shims.scss);
+@import url(../src/assets/font_scss/sharp-light.scss);
 
 body {
   background-color: black;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
