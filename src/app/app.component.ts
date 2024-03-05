@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from "./shared/sidebar/sidebar.component";
 import { AboutComponent } from "./shared/about/about.component";
 import { IntroductionComponent } from "./shared/introduction/introduction.component";
+import { ResumeComponent } from "./shared/resume/resume.component";
 
 
 @Component({
@@ -11,7 +12,7 @@ import { IntroductionComponent } from "./shared/introduction/introduction.compon
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [RouterOutlet, HomeComponent, SidebarComponent ,AboutComponent , IntroductionComponent ]
+    imports: [RouterOutlet, HomeComponent, SidebarComponent ,AboutComponent , IntroductionComponent , ResumeComponent]
 })
 export class AppComponent {
   title = 'persnal_profile';
