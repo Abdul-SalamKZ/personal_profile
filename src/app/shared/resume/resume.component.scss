@@ -16,30 +16,22 @@
   font-size: 48px;
   margin-bottom: 33px;
 }
-// .timeline {
-//   list-style: none;
-//   padding: 0px;
-// }
-// .item {
-//   color: #999999;
-//   font-size: 16px;
-//   margin-bottom: 28px;
-//   padding: 0px 0px 68px 74px;
-// }
+
 .timeline {
-  margin: 4em auto;
+  padding-left: 5px;
   position: relative;
   max-width: 46em;
   list-style: none;
 
   &:before {
-    background-color: rgb(255, 124, 124);
+    background-color: #333333;
     content: "";
     margin-left: -1px;
     position: absolute;
-    top: 0;
-    left: 2em;
-    width: 2px;
+    margin-top: 3px;
+    top: 5px;
+    left: 5px;
+    width: 1px;
     height: 100%;
   }
 }
@@ -49,13 +41,16 @@
 
   &:hover {
     .timeline-event-icon {
-      background-color: pink;
+      background-color: #28e98c;
+    }
+    .timeline-event-thumbnail {
+      color: #28e98c;
     }
   }
 }
 
 .timeline-event-copy {
-  padding: 2em;
+  padding: 2em 0px 68px 60px;
   position: relative;
   top: -1.875em;
   left: 4em;
@@ -65,36 +60,28 @@
     font-size: 1.75em;
   }
 
-  h4 {
-    font-size: 1.2em;
-    margin-bottom: 1.2em;
-  }
-
-  strong {
-    font-weight: 700;
-  }
-
   p:not(.timeline-event-thumbnail) {
-    padding-bottom: 1.2em;
+    font-size: 13px;
+    color: #999999;
+    margin: 0px;
   }
 }
 
 .timeline-event-icon {
-  background-color: red;
-  outline: 10px solid green;
+  background-color: #656565;
   display: block;
+  border-radius: 10px;
   margin: 0.5em 0.5em 0.5em -0.5em;
   position: absolute;
-  top: 0;
-  left: 2em;
+  top: -1;
+  left: 0;
   width: 1em;
   height: 1em;
 }
 
 .timeline-event-thumbnail {
   color: #999999;
-  font-size: 0.75em;
-  display: inline-block;
-  margin-bottom: 1.2em;
-  padding: 0.25em 1em 0.2em 1em;
+  font-size: 16px;
+  margin-bottom: 28px;
+  margin-top: 1px;
 }
