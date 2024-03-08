@@ -23,3 +23,19 @@
   margin-bottom: 31px;
   padding-right: 80px;
 }
+@media only screen and (max-width: 450px) {
+  .label {
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+  .about {
+    font-size: 30px;
+  }
+  .about-p {
+    font-size: 12px;
+    padding: 0px;
+  }
+  .about-main {
+    padding: 10px !important;
+  }
+}

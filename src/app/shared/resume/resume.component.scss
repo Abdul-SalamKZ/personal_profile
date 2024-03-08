@@ -16,7 +16,17 @@
   font-size: 48px;
   margin-bottom: 33px;
 }
-
+@media only screen and (max-width: 450px) {
+  .intro {
+    font-size: 40px;
+  }
+  .intro-p {
+    font-size: 14px;
+  }
+  .intro-main{
+    padding: 30px;
+  }
+}
 .timeline {
   padding-left: 5px;
   position: relative;

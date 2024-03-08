@@ -16,6 +16,14 @@
   font-size: 48px;
   margin-bottom: 33px;
 }
+@media only screen and (max-width: 450px) {
+  .intro {
+    font-size: 40px;
+  }
+  .intro-main{
+    padding: 30px;
+  }
+}
 .service {
   border: 1px solid #565656;
   border-radius: 20px;
