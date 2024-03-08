@@ -21,14 +21,18 @@
   margin-bottom: 31px;
 }
 @media only screen and (max-width: 450px) {
+  .label {
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
   .intro {
-    font-size: 40px;
+    font-size: 36px;
   }
   .intro-p {
     font-size: 14px;
   }
   .intro-main{
-    padding: 30px;
+    padding: 10px !important;
   }
 }
 
