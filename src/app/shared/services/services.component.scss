@@ -17,18 +17,31 @@
   margin-bottom: 33px;
 }
 @media only screen and (max-width: 450px) {
-  .intro {
-    font-size: 40px;
+  .label {
+    font-size: 10px;
+    margin-bottom: 30px;
   }
-  .intro-main{
-    padding: 30px;
+  .service-h {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .service-main {
+    padding: 10px !important;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  p {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 20px;
   }
 }
 .service {
   border: 1px solid #565656;
   border-radius: 20px;
-  padding: 44px 48px 41px 48px;
-  margin-bottom: 10px;
+  padding: 44px 13px 41px 13px;;
 }
 .service:hover {
   border: 1px solid #28e98c;
