@@ -48,6 +48,9 @@
   position: relative;
   margin-right: 20px;
 }
+.roll-div:hover{
+  border: 1px solid #28e98c;
+}
 .roll-img {
   animation: spin 6s linear infinite;
   height: 141px;

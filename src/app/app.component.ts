@@ -7,6 +7,7 @@ import { IntroductionComponent } from "./shared/introduction/introduction.compon
 import { ResumeComponent } from "./shared/resume/resume.component";
 import { ServicesComponent } from "./shared/services/services.component";
 import { SkillsComponent } from './shared/skills/skills.component';
+import { PortfolioComponent } from './shared/portfolio/portfolio.component';
 
 
 @Component({
@@ -14,7 +15,7 @@ import { SkillsComponent } from './shared/skills/skills.component';
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [RouterOutlet, HomeComponent, SidebarComponent ,AboutComponent , IntroductionComponent , ResumeComponent , ServicesComponent ,SkillsComponent]
+    imports: [RouterOutlet, HomeComponent, SidebarComponent ,AboutComponent , IntroductionComponent , ResumeComponent , ServicesComponent ,SkillsComponent , PortfolioComponent]
 })
 export class AppComponent {
   title = 'persnal_profile';
