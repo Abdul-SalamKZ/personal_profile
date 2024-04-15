@@ -1,0 +1,60 @@
+.label {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin: 0px 0px 33px;
+  padding: 9px 20px;
+  border: 1px solid #565656;
+  border-radius: 30px;
+  width: 150px;
+}
+.name {
+  color: #28e98c;
+}
+.contact {
+  font-size: 48px;
+  margin-bottom: 33px !important;
+}
+.contact-h {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 450px) {
+  .label {
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+  .contact {
+    font-size: 30px;
+  }
+  .contact-p {
+    font-size: 14px;
+  }
+  .contact-main {
+    padding: 10px !important;
+  }
+}
+label {
+  margin-bottom: 2px;
+  font-size: 12px;
+}
+input {
+  display: block;
+  color: #fff;
+  width: 100%;
+  border: 0px solid transparent;
+  background: transparent;
+  font-size: 18px;
+  padding: 0;
+  padding-bottom: 3px;
+  outline: none;
+}
+span {
+  color: #a3a3a3;
+}
+.dropdown {
+  width: 100%;
+  color: white !important;
+}
