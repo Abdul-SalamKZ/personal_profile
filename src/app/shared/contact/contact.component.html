@@ -1,5 +1,6 @@
-<section class="py-5 py-xm-3">
-  <div class="p-5 main-contact">
+<section class="py-5 py-xm-3 mb-5">
+<div class="border-bottom">
+  <div class="p-5 pb-5 main-contact">
     <div>
       <h4 class="label text-center">
         <i class="fa-regular fa-dollar-sign me-1"></i>CONTACT
@@ -34,7 +35,7 @@
       </div>
       <div class="col-6">
         <div class="input-group mb-5">
-          <label for="email">EMAIL<sup class="text-danger">*</sup></label>
+          <label for="email">SUBJECT<sup class="text-danger">*</sup></label>
           <select name="subject" class="w-100" id="subject">
             <option value="">Select a subject</option>
             <option value="subject1">Subject 1</option>
@@ -43,12 +44,28 @@
         </select>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-12">
         <div class="input-group mb-5">
           <label for="email">YOUR BUDGET <span>(optinal)</span></label>
-          <input type="text" id="email" placeholder="Your email address" />
+          <input type="text" id="email" placeholder="A range budget for your project"/>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="input-group mb-5">
+          <label for="email">MESSAGE</label>
+          <input type="text" id="email" placeholder="Write your message here ...."/>
         </div>
       </div>
     </div>
   </div>
+</div>
+<div class="submit">
+  <div class="upload my-4">
+    <i class="fa-regular fa-cloud-arrow-up me-2"></i>
+    ADD AN ATTACHMENT
+  </div>
+  <div>
+    <button class="submit-btn py-3 px-5 border border-transparent rounded-pill mt-4">SEND MESSAGE</button>
+  </div>
+</div>
 </section>

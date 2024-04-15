@@ -39,6 +39,7 @@
 label {
   margin-bottom: 2px;
   font-size: 12px;
+  font-weight: 500;
 }
 input {
   display: block;
@@ -54,7 +55,18 @@ input {
 span {
   color: #a3a3a3;
 }
-.dropdown {
-  width: 100%;
-  color: white !important;
+select {
+  outline: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-left: -4px !important;
+}
+.submit-btn{
+  background-color: #28e98c;
+  color: black; 
+  font-size: 16px;
+}
+.upload{
+font-size: 12px;
 }
