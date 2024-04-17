@@ -1,0 +1,45 @@
+.canvas{
+    position: absolute;
+    top: 95px;
+    left: 92.5%;
+}  
+.canvas-btn{
+    border: 2px solid #999999;
+    border-radius: 40px;
+    height: 53px !important;
+    width: 53px !important; 
+}
+.canvas-btn:hover{
+    border-color: #28e98c;
+    color: #28e98c !important;
+}
+@media only screen and (max-width: 1200px) {
+    .canvas {
+      position: fixed !important;
+      top: 50px;
+      left: 93%;
+    }
+  }
+.offcanvas{
+    background-color: #191919;
+    font-size: 16px;
+    color: #999999;
+    width: 345px;
+}
+.canvas-main{
+    margin: 0px 93.15px 0px 93.14px;
+}
+
+.active-icon{
+    color: #28e98c !important;
+}
+a{
+    color: #999999 !important;
+    font-size: 12px;
+}
+.icon:hover{
+    color: #28e98c;
+}
+.fa-equals{
+    font-size: 20px;
+}

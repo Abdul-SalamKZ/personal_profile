@@ -1,12 +1,17 @@
 .menubar{
     position: fixed;
     top: 160px;
-    left: 1150px;
+    left: 92.5%;
     background: #1f1f1f;
     border-start-end-radius: 0px;
     border-radius: 40px;
     border: 1px solid #575757 !important;
 }
+@media only screen and (max-width: 1200px) {
+    .menubar {
+    display: none !important;
+    }
+  }
 .icon{
     color: #999999;
 }

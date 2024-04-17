@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './introduction.component.scss'
 })
 export class IntroductionComponent {
+[x: string]: any;
+sidebarWidth: any;
 
 }
