@@ -3,6 +3,11 @@
     position: fixed !important;
   }
 }
+@media only screen and (min-height: 1200px) {
+  .sidebar{
+    height: 99% !important;
+  }
+}
 
 .icon-div {
   height: 50px !important;
