@@ -1,17 +1,22 @@
 @media only screen and (min-width: 1200px) {
-  .position-fixed-lg {
+  .fixed-lg {
     position: fixed !important;
-    height: 99%;
   }
 }
-@media (min-height: 650px) and (max-height: 690px){
+@media (min-height: 600px) and (max-height: 790px){
  .sidebar{
   height: 98%;
  } 
-  .m-xl {
-  margin-top: 30px;
+ img{
+  height: 280px;
+ }
+ button{
+  height: 40px;
  }
 
+}
+.sidebar{
+  border: 1px solid #565656;
 }
 .icon-div {
   height: 50px !important;
