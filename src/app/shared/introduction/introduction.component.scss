@@ -24,6 +24,19 @@
   color: #999999;
   margin-bottom: 31px;
 }
+.year {
+  font-size: 72px;
+    letter-spacing: -0.2px;
+    line-height: 56px;
+    margin-bottom: 38px;
+    color: #28e98c;
+}
+.year-p {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #999999;
+}
 @media only screen and (min-width: 1216px) {
 .intro{
   width: 648px;
