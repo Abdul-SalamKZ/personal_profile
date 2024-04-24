@@ -11,11 +11,6 @@
 .sidebar{
   border: 1px solid #565656;
 }
-h1{
-  font-size: 30px;
-  font-weight: 700;
-  color: #ffffff;
-}
 span{
   width: 25px !important; 
 }
@@ -28,14 +23,14 @@ p{
   width: 100%;
   max-width: 250px;
  margin: auto;
-  margin-bottom: 46px; 
+  margin-bottom: 30px; 
 }
 img{
   border-radius: 20px;
 }
-h2{
-  font-size: 24px;
-  margin-bottom: 10px;
+.info{
+  font-size: 20px !important;
+  margin-bottom: 5px;
 }
 .icon-div {
   height: 50px !important;
