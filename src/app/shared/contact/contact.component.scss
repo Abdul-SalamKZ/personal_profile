@@ -21,6 +21,17 @@
   color: #ffffff;
   margin-bottom: 60px;
 }
+.border-b{
+  border-bottom: 1px solid #565656;
+}
+.px{
+  padding: 0px 36px;
+}
+@media only screen and (max-width: 600px){
+  .px{
+    padding: 0px;
+  }
+}
 @media only screen and (max-width: 450px) {
   .label {
     font-size: 10px;

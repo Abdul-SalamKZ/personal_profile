@@ -1,10 +1,13 @@
 .canvas{
     position: absolute;
-    top: 95px;
+    top: 63px;
     left: 92.5%;
 }  
 .canvas-btn{
-    border: 2px solid #999999;
+    border: 1px solid #999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 40px;
     height: 53px !important;
     width: 53px !important; 

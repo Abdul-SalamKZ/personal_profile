@@ -8,6 +8,7 @@
   border: 1px solid #565656;
   border-radius: 30px;
   width: 150px;
+  width: 106px;
 }
 .name {
   color: #28e98c;
@@ -22,6 +23,14 @@
   color: #999999;
   margin-bottom: 31px;
   padding-right: 80px;
+}
+.px{
+  padding: 0px 36px;
+}
+@media only screen and (max-width: 600px){
+  .px{
+    padding: 0px;
+  }
 }
 @media only screen and (max-width: 450px) {
   .label {
